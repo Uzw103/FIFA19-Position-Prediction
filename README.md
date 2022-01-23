@@ -1,2 +1,17 @@
-# FIFA19-Position-Prediction
-The final project of Data, Statistical Models and Information
+# FIFA-19-Position-Prediction
+### The final project of Data, Statistical Models and Information
+
+## Intro
+This project is the final project of IS507 Data, Statistical Models and Information in the 2021 Fall semester. We analyzed the dataset of FIFA 19 and used Machine Learning techiniques and Statistical methods to analyze the data distribution of the dataset. 
+
+Besides, we successfully devided 4 player's positions through their skill features and overscore. 
+
+## Descriptions
+FIFA is a type of football video game, which allows gamers to create football teams based on their favors and compete with other teams in the world. In the game, players have access to view the characteristics of each football player and design the tactics to counter the competitors. Our goal for the FIFA19 dataset is to use machine learning and statistical techniques to provide game players with team creation strategies to get more wins, hence increasing the winning rate. Specifically, based on the 88 features of the FIFA19 dataset, we aim to find the intrinsic relationships of these factors, including player skills, physical appearances, positions, and the rating scores of each player. Analyzing the features of the dataset can help game players build the “best” team without understanding professional and complex football regulations intelligently.
+
+We referred to several articles to learn how to apply machine learning techniques to football games. Herold et al. (2019) depicts that the information such as players’ positions and match outcome have already been predicted by ML models. In addition, Miguel (2019) mentioned a technique K- means to resolve a problem that is similar to our research. The performance of ML models depicts the ratio of the data that can be correctly predicted or classified using the current dataset for modeling. The indicators predicted in our paper are the player's position and overall performance, which provide necessary information for FIFA players to create a best team.
+
+First, by doing Factor Analysis on the skill feature variables, gamers especially those unfamiliar about soccer games can quickly understand these attributes as the factors are more interpretable. Gamers can easily see how these attributes are correlated to each other and use the information to apply his/her strategy when playing the game. Then, we used machine learning models to divide players into four groups by position forwards, midfielders, defenders and goalkeepers. Next, we further researched based on the result of separated position groups, using a mathematical model to find the best suitable position for a football player based on skill features. For example, when we get a new character in the game, we can put the new character in the best position that can reach the character’s full potential through this research. We also created a Logistic Regression model to help players make judgments based on model predictions without prior knowledge of physical appearances and footballer skills. Finally, by implementing and comparing three machine learning models -- Linear Regression, Decision Tree, Random Forest -- gamers can predict the overall performance score during gameplay based on the skill scores which can be improved by in-game training.
+
+ ![The correlation between overall score and 34 skill features![image](https://user-images.githubusercontent.com/60921570/150664452-63049a1c-d336-4325-9768-de2c6582621f.png)
+](https://user-images.githubusercontent.com/60921570/150664423-81118ec3-4322-4a12-8ca9-f8dd30f8241e.png)
